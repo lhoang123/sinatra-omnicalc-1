@@ -1,11 +1,12 @@
-<p>Enter a number</p>
-
-<form action = "/square/results">
+<form action = "/random/results">
   <div> 
-    <label for="calculations">Square with Form
+    <label for="min_number_input">Minimum
     </label>
+  <input id="min_number_input" type="number" name="minimum_input" placeholder="E.g. 1.5">
+  
+  <label for="max_number_input">Maximum
+    </label>
+  <input id="max_number_input" type="number" name="maximum_input" placeholder="E.g. 1.5">
 
-  <input id="number_input" type="text" name="number_value" placeholder="What number do you want to enter">
-
-  <button>Calculate square</button>
+  <button>Pick random number</button>
 </form>
