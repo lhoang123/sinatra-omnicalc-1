@@ -3,7 +3,13 @@ require "sinatra/reloader"
 
 get("/") do
   "
-  <h1>Welcome to your Sinatra App!</h1>
-  <p>Define some routes in app.rb</p>
-  "
+  <p>Enter a number
+  </p>"
+
+  erb(:square_with_form)
+
+end
+
+get("/square/new") do 
+ erb(:square_results)
 end
